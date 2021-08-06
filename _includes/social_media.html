@@ -1,0 +1,12 @@
+<div class="social-media">
+    <ul>
+        {% for link in site.data.social_media %}
+        <li><a href="{{ link.url | absolute_url }}">{{ link.name }}</a></li>
+        {% endfor -%}
+
+        <!-- <li><a style="color:black;" href="{{ '/github.html' | prepend: site.baseurl | prepend: site.url }}"><i class="fab fa-github"></i></a></li> 
+        <li><a style="color:red;" href="{{ '/patreon.html' | prepend: site.baseurl | prepend: site.url }}"><i class="fab fa-patreon"></i></a></li> 
+        <li><a style="color:red;" href="{{ '/itchio.html' | prepend: site.baseurl | prepend: site.url }}"><i class="fab fa-itch-io"></i></a></li> 
+        <li><a style="color:red;" href="{{ '/youtube.html' | prepend: site.baseurl | prepend: site.url }}"><i class="fab fa-youtube"></i></a></li>  -->
+    </ul>
+</div>

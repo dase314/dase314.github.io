@@ -1,0 +1,68 @@
+--- 
+layout: default 
+title: Alain's Tech Blog 
+description: Sharing about Application Development, Integration, Cloud, Big Data and Digital Transformation 
+comments: true 
+---
+
+<!-- Pagination links -->
+<div >
+	{% if paginator.previous_page %}
+		<a href="{{ paginator.previous_page_path }}" >
+		Previous
+		</a>
+	{% else %}
+		<span>Previous</span>
+	{% endif %}
+	| <span class="page_number ">
+		Page: {{ paginator.page }} of {{ paginator.total_pages }}
+	</span> | 
+	{% if paginator.next_page %}
+		<a href="{{ paginator.next_page_path }}" >Next</a>
+	{% else %}
+		<span >Next</span>
+	{% endif %}
+</div>
+
+<div class="list-group">
+	{% for post in paginator.posts %} 
+	<div class="list-group-item">
+	<a href="{{ post.url }}">
+		<h4 class="list-group-item-heading">{{ post.title }}</h4>
+		<h6 class="list-group-item-heading">{{ post.published | date: '%B %d,
+			%Y' }} | (Last Update : {{ post.date | date: '%B %d, %Y' }})</h6></a>
+		{% for tag in post.tags %}
+		<a class="label label-default" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+		{% endfor %}
+		{% if post.noimage %}
+		{% else %}		
+		<img
+			alt="{{ post.title }}"
+			src="/assets/images/{{post.id}}/top.jpg" class="img-responsive">
+		{% endif %}
+		<p>{{ post.excerpt | strip_html}}</p>
+		<a href="{{ post.url }}">Read more...</a>
+
+	</div>
+	{% endfor %}
+</div>
+
+<!-- Pagination links -->
+<div >
+{% if paginator.previous_page %}
+	<a href="{{ paginator.previous_page_path }}" >
+	Previous
+	</a>
+{% else %}
+	<span>Previous</span>
+{% endif %}
+| <span class="page_number ">
+	Page: {{ paginator.page }} of {{ paginator.total_pages }}
+</span> | 
+{% if paginator.next_page %}
+	<a href="{{ paginator.next_page_path }}" >Next</a>
+{% else %}
+	<span >Next</span>
+{% endif %}
+</div>
+	  

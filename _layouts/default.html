@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body>
+	{% include header.html %}
+	<div class="container">
+
+	{% if page.id %}
+	<p>
+		<strong>{{ page.published | date: '%B %d, %Y' }}</strong> ( last updated : {{ page.date | date: '%B %d, %Y' }} )
+		<br>
+		{% for tag in page.tags %}
+			<a class="label label-default" href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+		{% endfor %}
+    </p>
+	{%if page.github %}
+	<p>
+    	<a href="{{ page.github }}" class="btn btn-default">
+		    <i class="fa fa-github fa-2x"></i>  {{ page.github }}
+			</a>
+	</p>
+	{% endif %}
+	<hr>
+	<h1>Abstract</h1>
+	{% endif %}
+
+	{{ content }}
+
+
+	{% if page.id %}
+	<p>Originally published {{ page.published | date: '%B %d, %Y' }}
+    <br> Latest update {{ page.date | date: '%B %d, %Y' }}</p>
+
+    <p><strong>Related posts :</strong></p>
+        <ul>
+	    {% for allpost in site.posts %}
+			  {% for tag in page.tags %}
+			  {% if allpost.tags contains tag and allpost.id != page.id %}
+			  <li>
+			      <a href="{{ allpost.url }}">
+			        {{ allpost.title }}
+			      </a>
+			  </li>
+			  {% break %}
+			  {% endif %}
+			  {% endfor %}
+		{% endfor %}
+		</ul>
+	{% endif %}
+
+	{% include disqus.html %}
+	</div>
+	{% include footer.html %}
+	{% include analytics.html %}
+</body>
+</html>

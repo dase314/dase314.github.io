@@ -1,31 +1,43 @@
-title: jekyll-rtd-theme
-description: Just another documentation theme compatible with GitHub Pages
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-theme: null
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Alain's Tech Blog
+name: Alain's Tech Blog
+description: 
+  This is a blog of someone passionate about technology who wants to share some of the things he knows
+  about Application Development, Integration, Cloud, Big Data and Digital Transformation
+baseurl: "" # the subpath of your site, e.g. /blog
+github_username:  alainpham
 
-# debug:
-#   compress: true
-#   dist: false
-#   shortcodes: true
+# jekyll-paginate configuration
+paginate: 10
 
-readme_index:
-  with_frontmatter: true
-
+# Build settings
+markdown: kramdown
+#theme: minima
 plugins:
-  - jemoji
-  - jekyll-avatar
-  - jekyll-mentions
-
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
 exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
   - Gemfile
   - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+include: ["_pages"]
+permalink: /posts/:title/
+excerpt_separator: <!--more-->
+author: http://www.linkedin.com/in/alainpham
+
+host: 0.0.0.0
+

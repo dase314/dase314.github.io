@@ -1,9 +1,8 @@
 # 胡卉芪 Huiqi Hu
 
-![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
+![dase_log](http://dase.ecnu.edu.cn/static/images/logonew.png)
 
-<img src="https://github.com/dase314/dase314.github.io/tree/main/pic/school_logo.jpg"/> 
-
+![school_log](http://dase.ecnu.edu.cn/static/images/ecnulogo.png)
 
 ##  Personal Information
 

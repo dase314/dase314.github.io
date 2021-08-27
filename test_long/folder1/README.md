@@ -1,3 +1,3 @@
-# I'm folder1
+# Storage
 
 source: `{{ page.path }}`

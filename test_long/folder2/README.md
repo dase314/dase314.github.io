@@ -1,3 +1,3 @@
-# I'm folder2
+# Distributed Consistence
 
 source: `{{ page.path }}`

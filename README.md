@@ -1,7 +1,7 @@
 # 胡卉芪 Huiqi Hu
 
 ![CI](https://github.com/rundocs/jekyll-rtd-theme/workflows/CI/badge.svg?branch=develop)
-![school](https://data.jsdelivr.com/v1/package/gh/rundocs/jekyll-rtd-theme/badge)
+![school](https://github.com/dase314/dase314.github.io/blob/main/pic/school_logo.svg)
 
 
 ##  Personal Information

@@ -33,8 +33,8 @@ Specifically, my recent interests include:
 ```warning
 #### 新型硬件下数据库系统
 
-[LOgo](https://github.com/dase314/dase314.github.io/blob/main/images/research1.PNG)
-<img src="https://github.com/dase314/dase314.github.io/blob/main/images/research1.PNG?raw=true">
+[LOgo](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG)
+<img src="https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG?raw=true">
 
 ```
 ```warning

@@ -1,6 +1,6 @@
 # 胡卉芪 Huiqi Hu
 
-<img width="180px" src="http://dase.ecnu.edu.cn/static/images/logonew.png?raw=true">
+<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.png?raw=true">
 <img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
@@ -30,9 +30,9 @@ Specifically, my recent interests include:
 * cloud-based database, multi-master and shared memory buffer, distributed transaction over database replicas
 
 当前主要研究兴趣：
-
+```warning
 #### 新型硬件下数据库系统
-```mermaid
+
 <img src="https://github.com/dase314/dase314.github.io/blob/main/images/research1.png?raw=true">
 ```
 

@@ -1,7 +1,7 @@
 # 胡卉芪 Huiqi Hu
 
-<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.PNG?raw=true">
-<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
+<img width="90px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.PNG?raw=true">
+<img width="100px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
 ##  Personal Information
@@ -33,7 +33,8 @@ Specifically, my recent interests include:
 ```warning
 #### 新型硬件下数据库系统
 
-[LOgo](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG)
+![LXXX](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG)
+![LOgo](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG?raw=true)
 <img src="https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG?raw=true">
 
 ```

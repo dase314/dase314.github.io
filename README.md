@@ -4,6 +4,9 @@
 
 ![school_log](blob/main/images/sch_logo.PNG)
 
+<img src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
+
+
 ##  Personal Information
 
 The Geographical Building, East China Normal University(ECNU), Shanghai, China

@@ -33,11 +33,12 @@ Specifically, my recent interests include:
 ```warning
 #### 新型硬件下数据库系统
 
-![research1](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG?raw=true)
+![research_a](https://github.com/dase314/dase314.github.io/blob/main/images/research_a.PNG?raw=true)
 
 ```
 ```warning
 #### 新场景下分布式与事务处理
+![research_b](https://github.com/dase314/dase314.github.io/blob/main/images/research_b.PNG?raw=true)
 ```
 
 

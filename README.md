@@ -1,7 +1,7 @@
 # 胡卉芪 Huiqi Hu
 
-<img width="32px" src="http://dase.ecnu.edu.cn/static/images/logonew.png?raw=true">
-<img width="32px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
+<img width="180px" src="http://dase.ecnu.edu.cn/static/images/logonew.png?raw=true">
+<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
 ##  Personal Information

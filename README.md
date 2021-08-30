@@ -1,6 +1,6 @@
 # 胡卉芪 Huiqi Hu
 
-<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.png?raw=true">
+<img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.PNG?raw=true">
 <img width="180px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
@@ -33,7 +33,9 @@ Specifically, my recent interests include:
 ```warning
 #### 新型硬件下数据库系统
 
-<img src="https://github.com/dase314/dase314.github.io/blob/main/images/research1.png?raw=true">
+[LOgo](https://github.com/dase314/dase314.github.io/blob/main/images/research1.PNG)
+<img src="https://github.com/dase314/dase314.github.io/blob/main/images/research1.PNG?raw=true">
+
 ```
 ```warning
 #### 新场景下分布式与事务处理

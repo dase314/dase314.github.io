@@ -2,7 +2,7 @@
 
 ![dase_log](http://dase.ecnu.edu.cn/static/images/logonew.png)
 
-![school_log](https://github.com/dase314/dase314.github.io/blob/main/pic/sch_logo.PNG)
+![school_log](blob/main/images/sch_logo.PNG)
 
 ##  Personal Information
 

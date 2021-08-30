@@ -1,7 +1,7 @@
 # 胡卉芪 Huiqi Hu
 
 <img width="120px" src="https://github.com/dase314/dase314.github.io/blob/main/images/dase_logo.PNG?raw=true">
-<img width="140px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
+<img width="150px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
 ##  Personal Information

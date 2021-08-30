@@ -1,35 +1,24 @@
 # 胡卉芪 Huiqi Hu
 
-![dase_log](http://dase.ecnu.edu.cn/static/images/logonew.png)
-
-![school_log](blob/main/images/sch_logo.PNG)
-
-<img src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
+<img width="32px" src="http://dase.ecnu.edu.cn/static/images/logonew.png?raw=true">
+<img width="32px" src="https://github.com/dase314/dase314.github.io/blob/main/images/sch_logo.PNG?raw=true">
 
 
 ##  Personal Information
 
-The Geographical Building, East China Normal University(ECNU), Shanghai, China
 
-中国 华东师范大学 数据科学与工程学院 
+
+School of Data Science and Engineering, East China Normal University(ECNU), Shanghai, China
 
 Email: hqhu@dase.ecnu.edu.cn
 
 Short bio: I got my bachelor's degree at Xidian University and I recieved my Phd's degree at Tsinghua University supervised by Prof Jianhua Feng and Prof. Guoliang Li (<http://dbgroup.cs.tsinghua.edu.cn/ligl/>). Now I'm an associate professor at School of Data Science and Engineering (**DASE**), East China Normal University (**ECNU**). My main research interests are database and distributed systems.
 
+中国 华东师范大学 数据科学与工程学院,  主要从事数据库系统研究
 
-
-
-This theme is inspired by [sphinx-rtd-theme](https://github.com/readthedocs/sphinx_rtd_theme) and refactored with:
-
-- [@primer/css](https://github.com/primer/css)
-- [github-pages](https://github.com/github/pages-gem) ([dependency versions](https://pages.github.com/versions/))
+招收博士、学硕与专硕，感兴趣同学请email联系
 
 ##  Lab Dase-314 
-
-```yml
-remote_theme: rundocs/jekyll-rtd-theme
-```
 
 
 I run a small lab studying database and distributed systems. Our research area includes: storage, in-memory and parallel computing,  transaction processing and distributed consensus. In the lab, we prefer study open-sourced systems or open-sourced projects. The students are engaged in research/engineering in systems.
@@ -39,6 +28,19 @@ Specifically, my recent interests include:
 * distributed storage system, LSM-tree structured storage system with new hardwares (RDMA and NVM)
 
 * cloud-based database, multi-master and shared memory buffer, distributed transaction over database replicas
+
+当前主要研究兴趣：
+
+```mermaid
+#### 新型硬件下数据库系统
+
+<img  src="https://github.com/dase314/dase314.github.io/blob/main/images/research1.PNG?raw=true">
+
+```
+
+#### 新场景下分布式与事务处理
+
+
 
 
 ## The license

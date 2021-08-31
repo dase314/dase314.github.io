@@ -5,7 +5,7 @@
 
 1. 压缩SStable Block Index的存储空间，因为这些Block Index或者布隆过滤器通常都常驻缓存，所以对提高缓存空间利用率，进一步提高缓存命中率有价值, 如论文图3所示，Block Index部分。 
 
-![image.png](https://note.youdao.com/yws/res/6786/WEBRESOURCE99fb06c7d0e86cae57b0f8dc8c075c16)
+![image.png](https://note.youdao.com/yws/res/6786/WEBRESOURCE99fb06c7d0e86cae57b0f8dc8c075c16?raw=true)
 
 2. 在Step-merge结构中（即LSM-tree中允许某一层有多个交集的结构，典型的如LevelDB中的L0层）快速确定层数的方法
 
@@ -21,7 +21,7 @@
 
     c. 后缀数组，记录每个block最后一个元素的后缀。 这部分细节不是特别清楚。通过例子可以看出来，在a, b确定前缀在哪个block之后，要匹配block，这时候其实是可以做二分搜索的，因为同一个前缀的后缀是单调递增的，虽然整体的后缀不是递增的。所以论文中对000做二分搜索，仅仅是搜索010，110这个子数组，因为000比010小，所以一定在Block 0中。
     
-![image.png](https://note.youdao.com/yws/res/6807/WEBRESOURCEae8ce35514f1300e1ed4a374e8e885b0)
+![image.png](https://note.youdao.com/yws/res/6807/WEBRESOURCEae8ce35514f1300e1ed4a374e8e885b0?raw=true)
 
 压缩： 上面结构的三部分都可以进行压缩，a和c可以用ECT-Trie树，
 

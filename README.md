@@ -17,7 +17,7 @@ Short bio: I got my bachelor's degree at Xidian University and I recieved my Phd
 
 招收博士、学硕与专硕，感兴趣同学请email联系
 
-##  Lab Dase-314 
+##  实验室信息 Lab Dase-314 
 
 
 I run a small lab studying database and distributed systems. Our research area includes: storage, in-memory and parallel computing,  transaction processing and distributed consensus. In the lab, we prefer study open-sourced systems or open-sourced projects. The students are engaged in research/engineering in systems.

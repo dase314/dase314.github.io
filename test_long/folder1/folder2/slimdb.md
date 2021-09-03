@@ -5,8 +5,7 @@
 
 1. 压缩SStable Block Index的存储空间，因为这些Block Index或者布隆过滤器通常都常驻缓存，所以对提高缓存空间利用率，进一步提高缓存命中率有价值, 如论文图3所示，Block Index部分。 
 
-
-![](https://i.loli.net/2021/09/03/mHGczFLJZISQDw8.png)
+![](https://i.loli.net/2021/09/03/KgSrs6yci43vXQk.png)
 
 
 2. 用cuckoo filter 降低Bloom filter的假阳性。 在Step-merge结构中（即LSM-tree中允许某一层有多个交集的结构，典型的如LevelDB中的L0层）快速确定层数的方法。

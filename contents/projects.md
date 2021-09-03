@@ -53,7 +53,7 @@ OLAP的存储引擎面临两方面的需求，热数据查询性能更高，冷�
 
 ```note
 ## Cedar：基于分布式LSM-tree架构的OLTP系统
-华东师范大学数据学院数据库团队开发的可扩展分布式数据库， 详见Gitlab。
+华东师范大学数据学院数据库团队开发的可扩展分布式数据库， 详见[Cedar](https://github.com/daseECNU/Cedar)。
 ```
 
 

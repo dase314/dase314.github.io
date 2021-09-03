@@ -46,3 +46,5 @@ By | Dase314-2020年9月 | 请勿分享 | Content
 
 
 ### PingCAP 整理论文
+
+[PingCAP推荐列表](https://github.com/pingcap/awesome-database-learning)

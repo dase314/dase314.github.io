@@ -1,3 +1,3 @@
-# Distributed Consistence
+# Distributed Consistency
 
 source: `{{ page.path }}`

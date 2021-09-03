@@ -7,6 +7,11 @@
 
 ![image.png](https://note.youdao.com/yws/res/6786/WEBRESOURCE99fb06c7d0e86cae57b0f8dc8c075c16?raw=true)
 
+<img src="https://note.youdao.com/yws/res/6786/WEBRESOURCE99fb06c7d0e86cae57b0f8dc8c075c16?raw=true" />
+
+
+<img src="https://note.youdao.com/yws/res/6786/WEBRESOURCE99fb06c7d0e86cae57b0f8dc8c075c16" />
+
 2. 在Step-merge结构中（即LSM-tree中允许某一层有多个交集的结构，典型的如LevelDB中的L0层）快速确定层数的方法
 
 

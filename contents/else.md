@@ -48,3 +48,8 @@ By | Dase314-2020年9月 | 请勿分享 | Content
 ### PingCAP 整理论文
 
 [PingCAP推荐列表](https://github.com/pingcap/awesome-database-learning)
+
+
+### Rust教程
+
+[PingCAP推荐的RUST教程](https://github.com/pingcap/talent-plan/blob/master/courses/rust/docs/lesson-plan.md)

@@ -1,0 +1,3 @@
+# Logging
+
+source: `{{ page.path }}`

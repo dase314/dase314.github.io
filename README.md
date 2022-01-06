@@ -7,7 +7,7 @@
 ##  个人信息
 
 
-中国 华东师范大学 数据科学与工程学院, 副教授， 主要从事数据库系统研究。 [知乎主页](https://www.zhihu.com/people/hq-hu)
+中国 华东师范大学 数据科学与工程学院, 副教授， 主要从事数据库系统研究。 [华师大主页](https://faculty.ecnu.edu.cn/_s37/hhq2/main.psp),[知乎主页](https://www.zhihu.com/people/hq-hu)
 
 School of Data Science and Engineering, East China Normal University(ECNU), Shanghai, China
 
@@ -18,7 +18,6 @@ Short bio: I got my bachelor's degree at Xidian University and I recieved my Phd
 招收博士、学硕与专硕，感兴趣同学请email联系
 
 ##  实验室信息 Lab Dase-314 
-
 
 I run a small lab studying database and distributed systems. Our research area includes: storage, in-memory and parallel computing,  transaction processing and distributed consensus. In the lab, we prefer study open-sourced systems or open-sourced projects. The students are engaged in research/engineering in systems.
 
@@ -36,7 +35,7 @@ Specifically, my recent interests include:
 #### 分布式数据库事务处理与分布式一致性理论
 
 数据库的ACID包括了一些传统的事务理论，包括事务的隔离级别、可恢复行等。
-但在分布式数据库中，由于（1）Partition的引入 （2） 副本的引入。 （3） 多版本技术 等这使得事务的并发控制技术、日志技术以及分布式共识技术三者融合起来。
+但在分布式数据库中，由于（1）Partition的引入 （2） 副本的引入。 （3）多点写入（Multi-master）（4） 多版本技术 等这使得事务的并发控制技术、日志技术以及分布式共识技术三者融合起来。
 很多概念变得更加复杂难懂，有些问题用传统的理论解释乏力或者难以有效解释。数据库结合分布式，云场景，Serverless计算等新的场景，也出现了诸多新型的事务
 与分布式一致性问题，这些问题常常困扰对系统架构、技术等诸多方面。我们对这些新型场景与环境下的数据库系统进行探索。
 典型的例子如： 分布式数据库中快照隔离到底和分布式系统中的一致性有何关系，
@@ -49,11 +48,11 @@ Spanner在最高的一致性上作出了标准（可线性化+可串行化），
 
 
 ```warning
-#### 新型存储、计算环境下数据系统
+#### 新体系结构下的数据库系统
 
-云数据库，新型硬件环境下的数据库的都使得数据库面临新的设计与优化。我们主要针对集中新型硬件与设施，包括持久化内存
-高速网络(RDMA)与云存储，针对云环境下TP系统，混合存储介质下OLAP及No-SQL存储系统，No-SQL数据库进行研究
-，也基于RDMA和NVM新硬件特性实施具有新型架构与特征的数据库系统。
+云数据库、新型硬件环境下的出现使得数据库面临的软硬件环境发生了大量变化。从体系结构角度看：数据库系统的存储层次从简单的内存缓冲区与本地文件变化为多层次的混合Hierarchy，包括内存，持久化内存
+、SSD、HDD、云存储等多种混合存储；从计算角度看，新的计算技术层出不穷，如查询编译、向量执行、异构计算(多核CPU、GPU、FPGA)、协程、无锁编程技术等，这些计算在TP系统、OLAP及No-SQL系统中都有应用环境与空间，No-SQL数据库进行研究。
+存储与计算中间，是更加智能化的资源调度。我们主要针对多层混合介质的存储与并行查询计算技术展开研究。
 ```
 
 ```warning
@@ -66,8 +65,7 @@ Spanner在最高的一致性上作出了标准（可线性化+可串行化），
 AI应用构建涉及特征提取、特征管理、模型管理、模型训练、模型部署等环节，
 这些过程环环相扣。而且模型之间、模型数据之间还相互关联，
 涉及大量的中间数据，包括特征、向量化结果等等，需要系统化的管理。
-目前没有系统能对这些过程和中间数据进行有效统一管理，
-AI应用的构建和维护都是碎片化的，开发成本居高不下。
+目前没有系统能对这些过程和中间数据进行有效统一管理。
 ```
 
 

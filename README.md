@@ -53,7 +53,9 @@ Spanner在最高的一致性上作出了标准（可线性化+可串行化），
 云数据库、新型硬件环境下的出现使得数据库面临的软硬件环境发生了大量变化。从体系结构角度看：数据库系统的存储层次从简单的内存缓冲区与本地文件变化为多层次的混合Hierarchy，包括内存，持久化内存
 、SSD、HDD、云存储等多种混合存储；从计算角度看，新的计算技术层出不穷，如查询编译、向量执行、异构计算(多核CPU、GPU、FPGA)、协程、无锁编程技术等，这些计算在TP系统、OLAP及No-SQL系统中都有应用环境与空间，No-SQL数据库进行研究。PCIE、新型高速网络如RDMA会作为数据通道
 存储与计算中间，是更加智能化的资源调度。我们主要针对多层混合介质的存储与并行查询计算技术展开研究。
+
 <img src="https://github.com/dase314/dase314.github.io/blob/main/images/new_db_architecture.PNG?raw=true">
+
 ```
 
 ```warning

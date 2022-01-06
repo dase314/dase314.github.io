@@ -2,7 +2,7 @@
 sort: 1
 ---
 
-# Lab Info
+# [主页](https://dase314.github.io/)
 
 ```
 {% raw %}{% include list.liquid all=true %}{% endraw %}

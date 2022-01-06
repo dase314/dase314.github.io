@@ -44,7 +44,7 @@ Spanner在最高的一致性上作出了标准（可线性化+可串行化），
 我们主要研究三个方向的内容，分布式事务处理技术、分布式一致性协议、事务处理与分布式一致性协议的结合。
 相关理论有助于我们在系统设计时更容易的定位与思考问题。
 
-![avatar](https://github.com/dase314/dase314.github.io/blob/main/images/db_theory.PNG?raw=true)
+![avatar](https://github.com/dase314/dase314.github.io/blob/main/images/db_theory_tmp.PNG?raw=true)
 
  
 ```

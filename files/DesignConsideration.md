@@ -18,11 +18,12 @@
    4. reduce the write amplication
    5. group your writes 
 
-####### Optimization On LSM-tree
+###### Optimization On LSM-tree
 
+   
    1. optimize write amplication
    2. optimize read performance
-   3. other optimizations: cache 
+   3. other optimizations: cache, special workload
 
 
 
